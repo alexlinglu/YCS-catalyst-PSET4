@@ -3,4 +3,23 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #fdeeef;
+}
+.list-element {
+  display: inline-block;
+  width: 500px;
+}
+.list-element:first-child {
+  display: inline-block;
+  width: 1500px;
+}
+.list {
+  display: flex;
+  text-align: left;
+}
+.button {
+  background-color: bisque;
+  border: none;
+  height: 20px;
+  cursor: pointer;
 }
